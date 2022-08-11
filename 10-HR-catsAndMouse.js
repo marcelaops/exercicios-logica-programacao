@@ -17,7 +17,7 @@ function catAndMouse(x, y, z) {
 
   if (differenceAC < differenceBC) return ('Cat A');
   else if (differenceAC > differenceBC) return('Cat B');
-  else return ('Mouse C');
+  else return ('Mouse C'); // nesse caso o rato ganha, pois os dois gatos chegam junto (= rato foge)
 }
 
 console.log(catAndMouse(1, 3, 2));
