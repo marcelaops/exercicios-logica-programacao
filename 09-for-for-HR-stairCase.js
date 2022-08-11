@@ -12,7 +12,6 @@
 
 function staircase(n) {
   // Write your code here
-  // let symbol = '#';
   let inputLine = '';
   let inputPosition = n - 1;
 
